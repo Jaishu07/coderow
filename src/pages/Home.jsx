@@ -9,7 +9,7 @@ import asif from '../assets/asif.png';
 const Home = () => {
   const founder = {
     name: 'Yashwant Sharma',
-    role: 'Founder & CEO',
+    role: 'full-stack developer',
     bio: 'Passionate about building tools that empower developers to create amazing software.',
     avatar: 'https://avatars.githubusercontent.com/u/121419415?s=400&u=d13a31ba3b434eb012a8cdfde133d34209f3afb0&v=4',
     social: {
@@ -159,7 +159,10 @@ const Home = () => {
                           <span className="text-text"> [</span>
                           <span className="text-yellow-300">'React'</span>,
                           <span className="text-yellow-300"> 'Node.js'</span>,
-                          <span className="text-yellow-300"> 'TypeScript'</span>
+                          <span className="text-yellow-300"> 'JavaScript'</span>
+                          <span className="text-yellow-300"> 'MongoDB'</span>
+                          <span className="text-yellow-300"> 'Express'</span>
+                          <span className="text-yellow-300"> 'etc..'</span>
                           <span className="text-text">]</span>,
                         </div>
                         <div className="pl-4">
@@ -365,7 +368,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold text-text mb-4">Meet Our Founder</h2>
+            <h2 className="text-3xl font-bold text-text mb-4">Meet Our Developer🧑‍💻</h2>
             <div className="w-20 h-1 bg-accent mx-auto"></div>
           </motion.div>
 
@@ -385,7 +388,7 @@ const Home = () => {
               </div>
               <div className="flex-1 text-center md:text-left">
                 <h3 className="text-2xl font-bold text-text mb-2">{founder.name}</h3>
-                <p className="text-accent mb-4">{founder.role}</p>
+                <p className="text-accent mb-4">{founder.role}🚀</p>
                 <p className="text-gray-400 mb-6">{founder.bio}</p>
                 <div className="flex justify-center md:justify-start gap-4">
                   <a
@@ -423,3 +426,4 @@ const Home = () => {
 };
 
 export default Home;
+
