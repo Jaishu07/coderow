@@ -13,6 +13,7 @@ import Signup from './pages/Signup';
 import Resources from './pages/Resources';
 import Explore from './pages/Explore';
 import AuthModal from './components/Auth/AuthModal';
+import CodeEditor from './pages/CodeEditor';
 
 function App() {
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
@@ -69,6 +70,13 @@ function App() {
               <>
                 <Navbar onLogin={() => openAuthModal('login')} onSignup={() => openAuthModal('signup')} />
                 <Profile />
+                <Footer />
+              </>
+            } />
+            <Route path="/code-editor" element={
+              <>
+                <Navbar onLogin={() => openAuthModal('login')} onSignup={() => openAuthModal('signup')} />
+                <CodeEditor />
                 <Footer />
               </>
             } />

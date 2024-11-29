@@ -10,6 +10,7 @@ const Navbar = () => {
     { name: 'Documentation', href: '/docs' },
     { name: 'Resources', href: '/resources' },
     { name: 'Community', href: '/community' },
+    { name: 'Code Editor', href: '/code-editor' },
   ];
 
   return (
