@@ -75,6 +75,15 @@ const Community = () => {
       skills: ['figma', 'c', 'c++'],
       avatar: raju
     }
+     {
+      id: 3,
+      name: 'Ankit kumar',
+      role: 'java devloper',
+      contributions: 5,
+      projects: 5,
+      skills: ['java', 'c', 'c++'],
+      avatar: ""
+    }
   ];
 
   const techFilters = ['all', 'React', 'Node.js', 'TypeScript', 'Python', 'MongoDB'];
